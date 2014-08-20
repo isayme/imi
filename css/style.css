@@ -1,0 +1,37 @@
+*, *:before, *.after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif;
+  text-align: center;
+  width: 30em;
+  color: #555;
+}
+
+h1 {
+  margin: 1em auto;
+}
+
+input {
+  display: block;
+  margin: 1em auto;
+  width: 25em;
+  height: 46px;
+  font-size: 1em;
+  color: #555;
+  line-height: 1.33;
+  border-radius: 1px;
+  border: 1px solid #dddddd;
+  outline: 0 none;
+  padding: 0.5rem 0.8rem;
+}
+
+#n-psd {
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
