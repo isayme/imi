@@ -30,6 +30,15 @@ input {
   border: 1px solid #dddddd;
   outline: 0 none;
   padding: 0.5rem 0.8rem;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;3s ease;
+  outline: 0 none;
+}
+input:hover, input:focus {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(221, 221, 221, 0.6);
 }
 
 #n-psd {
