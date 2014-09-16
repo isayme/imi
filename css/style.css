@@ -9,7 +9,6 @@
 body {
   font-family: Georgia, "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif;
   text-align: center;
-  width: 30em;
   margin: auto;
   color: #555;
 }
@@ -21,7 +20,8 @@ h1 {
 input {
   display: block;
   margin: 1em auto;
-  width: 25em;
+  max-width: 25em;
+  width: 85%;
   height: 46px;
   font-size: 1em;
   color: #555;
